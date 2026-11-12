@@ -99,6 +99,7 @@ function home(root){
 /* ---------- liste (dizi / arama / tümü) ---------- */
 function list(root,opt){
   var base=opt.books,c=opt.cat;
+  D.title=opt.title+" | Grafiker Yayınları";
   root.innerHTML='<div class="gy-wrap gy-list"><div class="gy-list-head"><p class="gy-crumb"><a href="/">Ana sayfa</a> / <a href="/search">Kitaplar</a></p><h1>'+(c?'<span class="gy-sw" style="background:'+c.color+'"></span>':'')+esc(opt.title)+'</h1><p id="gy-count"></p>'+
   '<div class="gy-tools"><input type="search" id="gy-f" placeholder="'+(opt.q!=null?"Aramayı değiştir":"Bu listede ara")+'" value="'+esc(opt.q||"")+'" aria-label="Listede ara"><select id="gy-s" aria-label="Sıralama"><option value="new">Yeniden eskiye</option><option value="az">A’dan Z’ye</option><option value="pg">Sayfa sayısına göre</option></select><label><input type="checkbox" id="gy-o"> Tükenenleri gizle</label></div></div><div class="gy-grid" id="gy-g"></div></div>';
   var f=$("#gy-f"),s=$("#gy-s"),o=$("#gy-o"),g=$("#gy-g"),cn=$("#gy-count");
