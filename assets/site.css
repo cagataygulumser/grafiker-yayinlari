@@ -131,7 +131,7 @@ button,input,select{font:inherit;color:inherit}
 .gy-cover{background:#fff;border:1px solid var(--line);border-radius:10px;padding:28px 20px 22px;display:grid;place-items:center}
 .gy-cover img{max-height:350px;width:auto}
 .gy-cover.gy-3d{padding:22px 0 0;overflow:hidden}
-.gy-cover.gy-3d img{width:250px;max-width:100%;max-height:none;aspect-ratio:250/432;object-fit:cover;object-position:top;margin:0 auto}
+.gy-cover.gy-3d img{width:250px;max-width:100%;max-height:none;aspect-ratio:250/414;object-fit:cover;object-position:top;margin:0 auto}
 .gy-actions{display:grid;gap:10px;margin-top:16px}
 .gy-actions .gy-btn{justify-content:center}
 .gy-sold{font-size:15px;color:#8a5a00;background:#FBF1D9;border-radius:8px;padding:10px 14px;text-align:center;margin:0}
