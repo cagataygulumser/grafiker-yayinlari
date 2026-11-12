@@ -32,7 +32,7 @@
 <b:section class='main' id='main' showaddelement='no'>
 <b:widget id='Blog1' locked='true' title='Blog' type='Blog' version='1' visible='true'>
 <b:includable id='main' var='top'>
-<b:if cond='data:blog.pageType in {&quot;item&quot;,&quot;static_page&quot;}'>
+<b:if cond='data:blog.pageType != &quot;index&quot;'>
 <b:loop values='data:posts' var='post'>
 <article class='gy-post'><h1><data:post.title/></h1><div class='gy-body'><data:post.body/></div></article>
 </b:loop>
