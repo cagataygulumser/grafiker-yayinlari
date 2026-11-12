@@ -11,7 +11,7 @@
 <link href='https://fonts.googleapis.com' rel='preconnect'/>
 <link crossorigin='anonymous' href='https://fonts.gstatic.com' rel='preconnect'/>
 <link href='https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&amp;family=Literata:ital,opsz,wght@0,7..72,400..700;1,7..72,400..600&amp;display=swap' rel='stylesheet'/>
-<link href='https://cagataygulumser.github.io/grafiker-yayinlari/assets/site.css?v=1' rel='stylesheet'/>
+<link href='https://cagataygulumser.github.io/grafiker-yayinlari/assets/site.css?v=2' rel='stylesheet'/>
 <b:skin><![CDATA[body{margin:0;background:#F5F6F3;color:#231F20}]]></b:skin>
 </head>
 <body expr:class='data:view.isError ? &quot;gy-is-error&quot; : &quot;gy-ok&quot;'>
@@ -21,7 +21,7 @@
 <button class="gy-burger" type="button" aria-label="Menü"><svg width="18" height="14" viewBox="0 0 18 14" aria-hidden="true"><path d="M0 1h18M0 7h18M0 13h18" stroke="currentColor" stroke-width="1.6"/></svg></button>
 <nav class="gy-nav" aria-label="Ana menü">
 <div class="gy-dd"><button type="button" aria-expanded="false">Kitaplar</button><div class="gy-pop gy-series" id="gy-series"><a href="/search"><span class="gy-nm">Tüm kitaplar</span></a></div></div>
-<a href="/p/hakkimizda.html" data-page="hakkimizda">Hakkımızda</a>
+<a href="/p/hakkmzda.html" data-page="hakkimizda">Hakkımızda</a>
 <div class="gy-dd"><button type="button" aria-expanded="false">Belgeler</button><div class="gy-pop gy-docs"><a data-asset="belgeler/uluslararasi-yayinevi-belgesi.pdf" href="https://cagataygulumser.github.io/grafiker-yayinlari/belgeler/uluslararasi-yayinevi-belgesi.pdf"><span class="gy-nm">Uluslararası Yayınevi Belgesi</span></a><a data-asset="belgeler/yayin-indeksleri-2023.pdf" href="https://cagataygulumser.github.io/grafiker-yayinlari/belgeler/yayin-indeksleri-2023.pdf"><span class="gy-nm">Yayın indeksleri 2023</span></a><a data-asset="belgeler/yayin-indeksleri-2022.pdf" href="https://cagataygulumser.github.io/grafiker-yayinlari/belgeler/yayin-indeksleri-2022.pdf"><span class="gy-nm">Yayın indeksleri 2022</span></a></div></div>
 <a href="/p/iletisim.html" data-page="iletisim">İletişim</a>
 </nav>
@@ -46,9 +46,9 @@
 <div><img src="https://cagataygulumser.github.io/grafiker-yayinlari/img/logo/grafiker-yayinlari-dikey-beyaz.svg" alt="Grafiker Yayınları" width="150" height="120" style="width:150px;height:auto"/></div>
 <div><h3>Merkez</h3><p>1. Cadde 1396. Sokak (Eski 33. Sokak) No:6<br/>Oğuzlar Mahallesi 06520 Balgat, Ankara</p><p><a href="tel:+903122841639">+90 312 284 16 39</a></p><p><a href="mailto:grafiker@grafiker.com.tr">grafiker@grafiker.com.tr</a></p></div>
 <div><h3>Matbaa</h3><p>Kazım Karabekir Caddesi<br/>Ali Kabakçı İşhanı 85/3, İskitler, Ankara</p><p><a href="tel:+903123840018">+90 312 384 00 18</a></p></div>
-<div><h3>Site</h3><ul><li><a href="/search">Tüm kitaplar</a></li><li><a href="/p/hakkimizda.html" data-page="hakkimizda">Hakkımızda</a></li><li><a href="/p/belgeler.html" data-page="belgeler">Belgeler</a></li><li><a href="/p/iletisim.html" data-page="iletisim">İletişim</a></li><li><a href="https://www.facebook.com/grafikeryayinlari" rel="noopener">Facebook</a></li></ul></div>
+<div><h3>Site</h3><ul><li><a href="/search">Tüm kitaplar</a></li><li><a href="/p/hakkmzda.html" data-page="hakkimizda">Hakkımızda</a></li><li><a href="/p/belgeler.html" data-page="belgeler">Belgeler</a></li><li><a href="/p/iletisim.html" data-page="iletisim">İletişim</a></li><li><a href="https://www.facebook.com/grafikeryayinlari" rel="noopener">Facebook</a></li></ul></div>
 </div><div class="gy-foot-end"><span>© 2026 Grafiker Yayınları</span><span>Yayıncı sertifika no 46683</span></div></div></footer>
-<script>window.GY={assets:&quot;https://cagataygulumser.github.io/grafiker-yayinlari/&quot;,v:&quot;1&quot;}</script>
-<script defer='defer' src='https://cagataygulumser.github.io/grafiker-yayinlari/assets/site.js?v=1'/>
+<script>window.GY={assets:&quot;https://cagataygulumser.github.io/grafiker-yayinlari/&quot;,v:&quot;2&quot;}</script>
+<script defer='defer' src='https://cagataygulumser.github.io/grafiker-yayinlari/assets/site.js?v=2'/>
 </body>
 </html>
