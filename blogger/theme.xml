@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
-<html b:css='false' b:js='false' b:version='2' class='v2' lang='tr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<html b:css='false' b:defaultwidgetversion='2' b:js='false' b:layoutsVersion='3' b:responsive='true' b:templateVersion='1.3.0' lang='tr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
 <meta charset='utf-8'/>
 <meta content='width=device-width, initial-scale=1' name='viewport'/>
-<title><data:blog.pageTitle/></title>
+<title><b:if cond='data:view.isHomepage'>Grafiker Yayınları<b:else/><data:view.title.escaped/></b:if></title>
 <b:include data='blog' name='all-head-content'/>
 <meta content='#231F20' name='theme-color'/>
 <link href='https://cagataygulumser.github.io/grafiker-yayinlari/img/logo/favicon.svg' rel='icon' type='image/svg+xml'/>
@@ -14,8 +14,7 @@
 <link href='https://cagataygulumser.github.io/grafiker-yayinlari/assets/site.css?v=1' rel='stylesheet'/>
 <b:skin><![CDATA[body{margin:0;background:#F5F6F3;color:#231F20}]]></b:skin>
 </head>
-<body>
-<b:if cond='data:blog.pageType == &quot;error_page&quot;'><span hidden='hidden' id='gy-error'/></b:if>
+<body expr:class='data:view.isError ? &quot;gy-is-error&quot; : &quot;gy-ok&quot;'>
 <a class="gy-skip" href="#gy-main">İçeriğe geç</a>
 <header class="gy-head"><div class="gy-wrap">
 <a class="gy-logo" href="/" aria-label="Grafiker Yayınları ana sayfa"><img src="https://cagataygulumser.github.io/grafiker-yayinlari/img/logo/grafiker-yayinlari-yatay.svg" alt="Grafiker Yayınları" width="132" height="40" style="height:40px;width:auto"/></a>
@@ -29,10 +28,10 @@
 <button class="gy-search-btn" type="button" aria-label="Katalogda ara"><svg width="17" height="17" viewBox="0 0 17 17" aria-hidden="true"><circle cx="7" cy="7" r="5.6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M11.2 11.2 16 16" stroke="currentColor" stroke-width="1.6"/></svg></button>
 </div></header>
 <main id='gy-main'>
-<b:section class='main' id='main' showaddelement='no'>
-<b:widget id='Blog1' locked='true' title='Blog' type='Blog' version='1' visible='true'>
-<b:includable id='main' var='top'>
-<b:if cond='data:blog.pageType != &quot;index&quot;'>
+<b:section class='main' id='gybody' name='Kitap' showaddelement='true'>
+<b:widget id='Blog1' locked='false' title='Blog' type='Blog' version='2' visible='true'>
+<b:includable id='main'>
+<b:if cond='data:view.isSingleItem'>
 <b:loop values='data:posts' var='post'>
 <article class='gy-post'><h1><data:post.title/></h1><div class='gy-body'><data:post.body/></div></article>
 </b:loop>
