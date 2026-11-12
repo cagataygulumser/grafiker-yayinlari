@@ -141,7 +141,7 @@ function legacy(){
 
 load().then(function(){
   chrome();
-  var root=$("#gy-app"),art=$(".gy-post"),view=D.body.classList.contains("gy-is-error")?"error":(D.body.getAttribute("data-view")||"");
+  var root=$("#gy-app"),art=$(".gy-post"),view=(D.body.classList.contains("gy-is-error")||D.getElementById("gy-error"))?"error":(D.body.getAttribute("data-view")||"");
   var p=location.pathname,qs=new URLSearchParams(location.search);
   if(art){book(art);return}
   if(view==="error"||/\.aspx$/i.test(p)){if(legacy())return;root.innerHTML='<div class="gy-notfound"><h1>Bu sayfa rafta yok.</h1><p>Adres değişmiş ya da kitap katalogdan kaldırılmış olabilir. <a class="gy-link" href="/search">Tüm kitaplara</a> bakabilir ya da üstteki aramayı kullanabilirsiniz.</p></div>';return}
